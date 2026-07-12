@@ -22,3 +22,25 @@
     "article": "article003"
   }
 ]
+[
+  {
+    "id":"article003",
+    "headline_en":"Government announces reforms",
+    "headline_ur":"حکومت نے اصلاحات کا اعلان کردیا",
+
+    "summary_en":"Federal cabinet approved...", 
+    "summary_ur":"وفاقی کابینہ نے...", 
+
+    "thumbnail":"assets/images/articles/article003/cover.jpg",
+
+    "category":"Pakistan",
+
+    "date":"2026-07-12"
+  },
+
+  {
+    "id":"article002",
+    "headline_en":"...",
+    "headline_ur":"..."
+  }
+]

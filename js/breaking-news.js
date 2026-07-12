@@ -1,59 +1,59 @@
-/*=========================================
-        BREAKING NEWS
-=========================================*/
-
-let breakingNews = [];
+/* ==========================================================
+   BREAKING NEWS ENGINE V2
+========================================================== */
 
 document.addEventListener("DOMContentLoaded", loadBreakingNews);
 
-document.addEventListener("languageChanged", renderTicker);
+document.addEventListener("languageChanged", loadBreakingNews);
 
 async function loadBreakingNews(){
 
+    const ticker = document.getElementById("breakingTicker");
+
+    if(!ticker) return;
+
+    const lang = localStorage.getItem("language") || "en";
+
     try{
 
-        const response = await fetch("data/breaking-news.json");
+        // Load homepage controller
+        const homepage = await fetch("data/homepage/homepage.json")
+            .then(res=>res.json());
 
-        breakingNews = await response.json();
+        ticker.innerHTML = "";
 
-        renderTicker();
+        for(const id of homepage.breaking){
+
+            const article = await fetch(
+                `data/articles/${id}.json`
+            ).then(res=>res.json());
+
+            ticker.innerHTML += `
+
+<a
+    href="pages/article.html?id=${article.id}"
+    class="ticker-item">
+
+    ${article.headline[lang]}
+
+</a>
+
+<span class="ticker-divider">
+
+•
+
+</span>
+
+`;
+
+        }
 
     }
 
     catch(error){
 
-        console.error("Breaking News Error:",error);
+        console.error(error);
 
     }
-
-}
-
-function renderTicker(){
-
-    const ticker=document.getElementById("breakingTicker");
-
-    if(!ticker) return;
-
-    const lang=localStorage.getItem("language") || "en";
-
-    let html="";
-
-    breakingNews.forEach(news=>{
-
-        html+=`
-
-        <a href="pages/article.html?id=${news.id}">
-
-            ${news.headline[lang]}
-
-        </a>
-
-        `;
-
-    });
-
-    html+=html;
-
-    ticker.innerHTML=html;
 
 }

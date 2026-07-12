@@ -1,52 +1,57 @@
 {
-    "id": "article001",
+  "id": "article001",
+  "slug": "pakistan-announces-new-economic-reform-package",
 
-    "category": "Pakistan",
+  "category": "Pakistan",
 
-    "date": "09 July 2026",
+  "headline": {
+    "en": "Pakistan Announces New Economic Reform Package",
+    "ur": "پاکستان نے نئی معاشی اصلاحات کا اعلان کر دیا"
+  },
 
-    "author": "Editorial Desk",
+  "summary": {
+    "en": "The federal government has announced a comprehensive economic package aimed at improving exports and reducing inflation.",
+    "ur": "وفاقی حکومت نے برآمدات بڑھانے اور مہنگائی کم کرنے کے لیے ایک جامع معاشی پیکیج کا اعلان کیا۔"
+  },
 
-    "thumbnail": "../assets/images/articles/article001.jpg",
+  "content": {
+    "en": [
+      "Pakistan has introduced a new package of economic reforms.",
+      "Officials stated that these reforms will strengthen exports and stabilize inflation.",
+      "The business community has welcomed the initiative."
+    ],
+    "ur": [
+      "پاکستان نے نئی معاشی اصلاحات متعارف کرائی ہیں۔",
+      "حکام کے مطابق ان اصلاحات سے برآمدات میں اضافہ اور مہنگائی میں استحکام آئے گا۔",
+      "کاروباری برادری نے اس اقدام کا خیر مقدم کیا۔"
+    ]
+  },
 
-    "title": {
+  "author": "Editorial Desk",
 
-        "en":"Pakistan Announces New Economic Reform Package",
+  "date": "2026-07-09",
 
-        "ur":"پاکستان نے نئی معاشی اصلاحات کا اعلان کر دیا"
+  "publishedAt": "2026-07-09T10:00:00Z",
 
-    },
+  "readingTime": 3,
 
-    "summary":{
+  "thumbnail": "/assets/images/articles/article001/cover.jpg",
 
-        "en":"The federal government has announced a comprehensive economic package aimed at improving exports and reducing inflation.",
+  "views": 0,
 
-        "ur":"وفاقی حکومت نے برآمدات بڑھانے اور مہنگائی کم کرنے کے لیے ایک جامع معاشی پیکیج کا اعلان کیا۔"
+  "status": "published",
 
-    },
+  "isHero": true,
+  "isFeatured": true,
+  "isBreaking": false,
+  "isTrending": true,
+  "isEditorsChoice": true,
 
-    "content":{
-
-        "en":[
-
-            "Pakistan has introduced a new package of economic reforms.",
-
-            "Officials stated that these reforms will strengthen exports and stabilize inflation.",
-
-            "The business community has welcomed the initiative."
-
-        ],
-
-        "ur":[
-
-            "پاکستان نے نئی معاشی اصلاحات متعارف کرائی ہیں۔",
-
-            "حکام کے مطابق ان اصلاحات سے برآمدات میں اضافہ اور مہنگائی میں استحکام آئے گا۔",
-
-            "کاروباری برادری نے اس اقدام کا خیر مقدم کیا۔"
-
-        ]
-
-    }
-
+  "tags": [
+    "Pakistan",
+    "Economy",
+    "Government",
+    "Exports",
+    "Inflation"
+  ]
 }

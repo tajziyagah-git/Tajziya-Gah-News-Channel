@@ -1,0 +1,35 @@
+{
+    "hero": [
+        "article003",
+        "article004"
+    ],
+
+    "breaking": [
+        "article004",
+        "article001",
+        "article002"
+    ],
+
+    "latest": [
+        "article003",
+        "article002",
+        "article004"
+    ],
+
+    "featured": [
+        "article003",
+        "article001"
+    ],
+
+    "editorChoice": [
+        "article002"
+    ],
+
+    "opinion":[
+    "article004",
+    "article003",
+    "article002"
+],
+
+    "videos": []
+}

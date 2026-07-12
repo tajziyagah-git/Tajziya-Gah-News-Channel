@@ -14,19 +14,23 @@ document.addEventListener("DOMContentLoaded", () => {
        Sticky Header
     =============================== */
 
-    function updateHeader() {
+    function updateHeader(){
 
-        if (window.scrollY > 80) {
+    if(!header) return;
 
-            header.classList.add("sticky");
+    if(window.scrollY>80){
 
-        } else {
-
-            header.classList.remove("sticky");
-
-        }
+        header.classList.add("sticky");
 
     }
+
+    else{
+
+        header.classList.remove("sticky");
+
+    }
+
+}
 
     window.addEventListener("scroll", updateHeader);
 
