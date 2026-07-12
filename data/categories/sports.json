@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article501",
+
+        "title":{
+            "en":"Pakistan Wins ODI Series",
+            "ur":"پاکستان نے ون ڈے سیریز جیت لی"
+        },
+
+        "summary":{
+            "en":"Pakistan secured a convincing victory in the final ODI.",
+            "ur":"پاکستان نے آخری ون ڈے میچ میں شاندار کامیابی حاصل کی۔"
+        },
+
+        "image":"../assets/images/articles/sports1.jpg",
+
+        "date":"10 July 2026",
+
+        "author":"Sports Desk"
+    },
+
+    {
+        "id":"article502",
+
+        "title":{
+            "en":"Olympic Committee Announces New Events",
+            "ur":"اولمپک کمیٹی نے نئے مقابلوں کا اعلان کر دیا"
+        },
+
+        "summary":{
+            "en":"Several new sporting disciplines will be introduced in the next Olympics.",
+            "ur":"اگلے اولمپکس میں کئی نئے کھیل شامل کیے جائیں گے۔"
+        },
+
+        "image":"../assets/images/articles/sports2.webp",
+
+        "date":"10 July 2026",
+
+        "author":"Sports Desk"
+    }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": {
+      "en": "Pakistan Political Analysis",
+      "ur": "پاکستانی سیاست کا تجزیہ"
+    },
+    "description": {
+      "en": "Latest political developments discussed in detail.",
+      "ur": "تازہ سیاسی صورتحال کا تفصیلی تجزیہ۔"
+    },
+    "thumbnail": "https://img.youtube.com/vi/s6wYjKuxel8/maxresdefault.jpg",
+    "youtube": "https://youtu.be/s6wYjKuxel8",
+    "duration": "15:42",
+    "date": "10 July 2026",
+    "category": "Politics"
+  },
+  {
+    "id": "2",
+    "title": {
+      "en": "Economic Update",
+      "ur": "معاشی صورتحال"
+    },
+    "description": {
+      "en": "Weekly economic analysis and market updates.",
+      "ur": "ہفتہ وار معاشی تجزیہ اور مارکیٹ اپڈیٹس۔"
+    },
+    "thumbnail": "https://img.youtube.com/vi/YBgF5Sv8PDU/maxresdefault.jpg",
+    "youtube": "https://youtu.be/YBgF5Sv8PDU?si=4EuBjmyaINYswtKE",
+    "duration": "11:08",
+    "date": "09 July 2026",
+    "category": "Business"
+  }
+]

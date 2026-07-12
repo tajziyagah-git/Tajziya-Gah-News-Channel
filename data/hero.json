@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Pakistan Announces New Economic Reforms",
+      "ur": "پاکستان نے نئی معاشی اصلاحات کا اعلان کر دیا"
+    },
+    "description": {
+      "en": "Government unveils a comprehensive package aimed at boosting exports and stabilizing inflation.",
+      "ur": "حکومت نے برآمدات بڑھانے اور مہنگائی کو مستحکم کرنے کے لیے ایک جامع پیکیج متعارف کرایا۔"
+    },
+    "image": "assets/images/hero1.webp",
+    "category": "Pakistan",
+    "date": "09 July 2026",
+    "article": "article001"
+  }
+]

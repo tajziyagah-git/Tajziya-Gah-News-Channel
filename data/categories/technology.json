@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article401",
+
+        "title":{
+            "en":"New AI Model Sets Performance Record",
+            "ur":"نئے اے آئی ماڈل نے کارکردگی کا نیا ریکارڈ قائم کر دیا"
+        },
+
+        "summary":{
+            "en":"Researchers unveiled an AI model capable of solving complex reasoning tasks.",
+            "ur":"محققین نے جدید مصنوعی ذہانت کا ماڈل متعارف کرایا۔"
+        },
+
+        "image":"../assets/images/articles/tech1.jpg",
+
+        "date":"10 July 2026",
+
+        "author":"Technology Desk"
+    },
+
+    {
+        "id":"article402",
+
+        "title":{
+            "en":"Pakistan Expands Nationwide 5G Trials",
+            "ur":"پاکستان میں فائیو جی ٹرائلز میں توسیع"
+        },
+
+        "summary":{
+            "en":"Telecom operators expanded 5G testing to more major cities.",
+            "ur":"ٹیلی کام کمپنیوں نے مزید شہروں میں فائیو جی آزمائش شروع کردی۔"
+        },
+
+        "image":"../assets/images/articles/tech2.webp",
+
+        "date":"10 July 2026",
+
+        "author":"Technology Desk"
+    }
+]

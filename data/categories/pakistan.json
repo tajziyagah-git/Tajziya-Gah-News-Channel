@@ -1,0 +1,43 @@
+[
+    {
+        "id":"article001",
+
+        "title":{
+            "en":"Pakistan announces economic reforms",
+            "ur":"پاکستان نے معاشی اصلاحات کا اعلان کر دیا"
+        },
+
+        "summary":{
+            "en":"Government introduces reforms to stabilize the economy.",
+            "ur":"حکومت نے معیشت کو مستحکم کرنے کے لیے اصلاحات متعارف کرائیں۔"
+        },
+
+        "image":"../assets/images/articles/article001.jpg",
+
+        "date":"09 July 2026",
+
+        "author":"Editorial Desk"
+    },
+
+    {
+        "id":"article002",
+
+        "title":{
+            "en":"Heavy rains expected this week",
+
+            "ur":"اس ہفتے شدید بارشوں کا امکان"
+        },
+
+        "summary":{
+            "en":"PMD predicts heavy monsoon rainfall across Pakistan.",
+
+            "ur":"محکمہ موسمیات نے شدید مون سون بارشوں کی پیشگوئی کی ہے۔"
+        },
+
+        "image":"../assets/images/articles/article002.jpg",
+
+        "date":"09 July 2026",
+
+        "author":"Weather Desk"
+    }
+]

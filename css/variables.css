@@ -1,0 +1,217 @@
+/* ===========================================================
+   TAJZIYA GAH
+   variables.css
+   Design System
+=========================================================== */
+
+:root{
+
+    /* =======================================================
+       COLORS
+    ======================================================= */
+
+    --color-primary:#B5121B;
+    --color-primary-dark:#8E0D14;
+    --color-primary-light:#E63A44;
+
+    --color-dark:#111827;
+    --color-dark-secondary:#1F2937;
+
+    --color-white:#FFFFFF;
+
+    --color-background:#F8F9FA;
+    --color-surface:#FFFFFF;
+    --color-light:#F3F4F6;
+
+    --color-border:#E5E7EB;
+
+    --color-text:#1F2937;
+    --color-text-light:#6B7280;
+
+    --color-success:#16A34A;
+    --color-warning:#F59E0B;
+    --color-danger:#DC2626;
+    --color-info:#2563EB;
+
+    /* =======================================================
+       TYPOGRAPHY
+    ======================================================= */
+
+    --font-heading:'Poppins',sans-serif;
+    --font-body:'Inter',sans-serif;
+
+    --font-size-xs:.75rem;
+    --font-size-sm:.875rem;
+    --font-size-base:1rem;
+    --font-size-lg:1.125rem;
+    --font-size-xl:1.25rem;
+    --font-size-2xl:1.5rem;
+    --font-size-3xl:2rem;
+    --font-size-4xl:2.5rem;
+    --font-size-5xl:3rem;
+    --font-size-6xl:3.5rem;
+
+    --font-weight-regular:400;
+    --font-weight-medium:500;
+    --font-weight-semibold:600;
+    --font-weight-bold:700;
+    --font-weight-extra-bold:800;
+
+    --line-height-tight:1.2;
+    --line-height-normal:1.5;
+    --line-height-loose:1.8;
+
+    /* =======================================================
+       SPACING
+    ======================================================= */
+
+    --space-4:4px;
+    --space-8:8px;
+    --space-12:12px;
+    --space-16:16px;
+    --space-20:20px;
+    --space-24:24px;
+    --space-32:32px;
+    --space-40:40px;
+    --space-48:48px;
+    --space-64:64px;
+    --space-80:80px;
+    --space-96:96px;
+
+    /* =======================================================
+       BORDER RADIUS
+    ======================================================= */
+
+    --radius-small:6px;
+    --radius-medium:12px;
+    --radius-large:18px;
+    --radius-pill:999px;
+
+    /* =======================================================
+       SHADOWS
+    ======================================================= */
+
+    --shadow-small:
+        0 2px 8px rgba(0,0,0,.06);
+
+    --shadow-medium:
+        0 8px 20px rgba(0,0,0,.08);
+
+    --shadow-large:
+        0 20px 40px rgba(0,0,0,.12);
+
+    /* =======================================================
+       CONTAINER
+    ======================================================= */
+
+    --container-width:1320px;
+
+    --container-padding:24px;
+
+    /* =======================================================
+       HEADER
+    ======================================================= */
+
+    --topbar-height:40px;
+
+    --header-height:90px;
+
+    --navbar-height:60px;
+
+    /* =======================================================
+       TRANSITIONS
+    ======================================================= */
+
+    --transition-fast:.2s ease;
+
+    --transition-normal:.3s ease;
+
+    --transition-slow:.5s ease;
+
+    /* =======================================================
+       Z-INDEX
+    ======================================================= */
+
+    --z-dropdown:100;
+
+    --z-sticky:500;
+
+    --z-overlay:1000;
+
+    --z-modal:2000;
+
+    --z-loader:5000;
+
+}
+
+
+/* ===========================================================
+   DARK MODE VARIABLES
+=========================================================== */
+
+body.dark-theme{
+
+    --color-background:#0F172A;
+
+    --color-surface:#1E293B;
+
+    --color-light:#273449;
+
+    --color-border:#334155;
+
+    --color-text:#F8FAFC;
+
+    --color-text-light:#CBD5E1;
+
+}
+
+
+/* ===========================================================
+   RESPONSIVE VARIABLES
+=========================================================== */
+
+@media(max-width:1200px){
+
+    :root{
+
+        --container-width:1140px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    :root{
+
+        --container-padding:20px;
+
+        --header-height:80px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    :root{
+
+        --container-padding:16px;
+
+        --header-height:70px;
+
+        --navbar-height:55px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    :root{
+
+        --container-padding:14px;
+
+    }
+
+}

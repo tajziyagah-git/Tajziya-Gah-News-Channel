@@ -1,0 +1,35 @@
+{
+  "id": "article003",
+
+  "category": "Technology",
+
+  "author": "Technology Desk",
+
+  "date": "10 July 2026",
+
+  "thumbnail": "../assets/images/articles/article003.webp",
+
+  "title": {
+    "en": "Pakistan's Digital Economy Continues to Expand Through Technology Investments",
+    "ur": "ٹیکنالوجی سرمایہ کاری کے باعث پاکستان کی ڈیجیٹل معیشت میں مسلسل ترقی"
+  },
+
+  "summary": {
+    "en": "Growth in digital services, fintech, and technology startups continues to strengthen Pakistan's digital economy and create new employment opportunities.",
+    "ur": "ڈیجیٹل سروسز، فن ٹیک اور ٹیکنالوجی اسٹارٹ اپس میں ترقی پاکستان کی ڈیجیٹل معیشت کو مضبوط بنانے کے ساتھ روزگار کے نئے مواقع بھی پیدا کر رہی ہے۔"
+  },
+
+  "content": {
+    "en": [
+      "Pakistan's digital economy continues to show positive momentum as investments in information technology, fintech, and digital services increase across the country.",
+      "Industry experts believe continued investment in digital infrastructure, cybersecurity, cloud computing, and artificial intelligence will further strengthen Pakistan's position in the regional technology market while creating opportunities for entrepreneurs and software professionals.",
+      "Government initiatives supporting digital payments, e-commerce, and technology exports are expected to accelerate innovation and contribute to long-term economic growth."
+    ],
+
+    "ur": [
+      "پاکستان کی ڈیجیٹل معیشت میں مسلسل بہتری دیکھنے میں آ رہی ہے کیونکہ انفارمیشن ٹیکنالوجی، فن ٹیک اور ڈیجیٹل سروسز میں سرمایہ کاری میں اضافہ ہو رہا ہے۔",
+      "ماہرین کے مطابق ڈیجیٹل انفراسٹرکچر، سائبر سکیورٹی، کلاؤڈ کمپیوٹنگ اور مصنوعی ذہانت میں مزید سرمایہ کاری سے پاکستان کی علاقائی ٹیکنالوجی مارکیٹ میں پوزیشن مزید مضبوط ہوگی اور نوجوانوں کے لیے روزگار کے نئے مواقع پیدا ہوں گے۔",
+      "حکومتی اقدامات، جن میں ڈیجیٹل ادائیگیاں، ای کامرس اور آئی ٹی برآمدات شامل ہیں، آئندہ برسوں میں جدت اور معاشی ترقی کو مزید فروغ دینے میں اہم کردار ادا کر سکتے ہیں۔"
+    ]
+  }
+}

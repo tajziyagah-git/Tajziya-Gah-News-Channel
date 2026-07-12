@@ -1,0 +1,23 @@
+[
+  {
+    "id": "article001",
+    "headline": {
+      "en": "Government announces major economic reforms.",
+      "ur": "حکومت نے اہم معاشی اصلاحات کا اعلان کر دیا۔"
+    }
+  },
+  {
+    "id": "article002",
+    "headline": {
+      "en": "NDMA issues nationwide advisory as heavy monsoon rains approach.",
+      "ur": "شدید مون سون بارشوں کے پیش نظر این ڈی ایم اے نے ایڈوائزری جاری کر دی۔"
+    }
+  },
+  {
+    "id": "article003",
+    "headline": {
+      "en": "Technology investments continue to boost Pakistan's digital economy.",
+      "ur": "ٹیکنالوجی سرمایہ کاری سے پاکستان کی ڈیجیٹل معیشت میں مسلسل بہتری۔"
+    }
+  }
+]

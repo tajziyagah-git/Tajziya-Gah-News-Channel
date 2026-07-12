@@ -1,0 +1,35 @@
+{
+  "id": "article002",
+
+  "category": "Pakistan",
+
+  "author": "Editorial Desk",
+
+  "date": "10 July 2026",
+
+  "thumbnail": "../assets/images/articles/article002.jpg",
+
+  "title": {
+    "en": "Heavy Monsoon Rains Expected Across Pakistan, NDMA Issues Advisory",
+    "ur": "ملک بھر میں شدید مون سون بارشوں کا امکان، این ڈی ایم اے کی احتیاطی ہدایات جاری"
+  },
+
+  "summary": {
+    "en": "The National Disaster Management Authority has warned of heavy rainfall in several regions and advised citizens to take precautionary measures.",
+    "ur": "نیشنل ڈیزاسٹر مینجمنٹ اتھارٹی نے ملک کے مختلف علاقوں میں شدید بارشوں کی پیش گوئی کرتے ہوئے شہریوں کو احتیاطی تدابیر اختیار کرنے کی ہدایت کی ہے۔"
+  },
+
+  "content": {
+    "en": [
+      "The National Disaster Management Authority (NDMA) has issued a nationwide advisory ahead of an expected spell of heavy monsoon rainfall affecting multiple provinces over the coming days.",
+      "According to the advisory, low-lying urban areas may experience waterlogging, while hilly regions remain vulnerable to flash floods and landslides. Local administrations have been instructed to remain on high alert and ensure emergency response teams are fully prepared.",
+      "Citizens have been advised to avoid unnecessary travel during periods of intense rainfall, monitor official weather updates, and immediately report emergencies to the relevant authorities. Rescue agencies have also been directed to position equipment and personnel in high-risk districts."
+    ],
+
+    "ur": [
+      "نیشنل ڈیزاسٹر مینجمنٹ اتھارٹی (این ڈی ایم اے) نے آئندہ چند روز کے دوران ملک کے مختلف حصوں میں شدید مون سون بارشوں کے پیش نظر قومی سطح پر ایڈوائزری جاری کر دی ہے۔",
+      "ایڈوائزری کے مطابق نشیبی علاقوں میں پانی جمع ہونے جبکہ پہاڑی علاقوں میں لینڈ سلائیڈنگ اور اچانک سیلاب کا خطرہ موجود ہے۔ ضلعی انتظامیہ کو ہنگامی صورتحال سے نمٹنے کے لیے مکمل تیاری رکھنے کی ہدایت کی گئی ہے۔",
+      "شہریوں سے اپیل کی گئی ہے کہ شدید بارش کے دوران غیر ضروری سفر سے گریز کریں، سرکاری موسمی اطلاعات پر نظر رکھیں اور کسی بھی ہنگامی صورتحال میں متعلقہ اداروں سے فوری رابطہ کریں۔"
+    ]
+  }
+}

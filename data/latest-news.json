@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "en": "Technology sector records strong quarterly growth",
+      "ur": "ٹیکنالوجی کے شعبے میں سہ ماہی ترقی"
+    },
+    "image": "assets/images/articles/banner1.jpg",
+    "date": "09 July 2026",
+    "category": "Technology",
+    "article": "article002"
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Pakistan defeats Australia in thrilling ODI",
+      "ur": "پاکستان نے سنسنی خیز میچ میں آسٹریلیا کو شکست دی"
+    },
+    "image": "assets/images/articles/banner2.jpg",
+    "date": "09 July 2026",
+    "category": "Sports",
+    "article": "article003"
+  }
+]

@@ -1,0 +1,119 @@
+/* =========================================
+THEME
+========================================= */
+
+body{
+
+transition:
+background .3s ease,
+color .3s ease;
+
+}
+
+body.dark{
+
+background:#0f172a;
+
+color:#f8fafc;
+
+}
+
+/* Cards */
+
+body.dark .news-card,
+body.dark .article-card,
+body.dark .sidebar-widget,
+body.dark .contact-card,
+body.dark .mission-card,
+body.dark .team-card,
+body.dark .faq-item,
+body.dark .search-card{
+
+background:#1e293b;
+
+color:#f8fafc;
+
+}
+
+/* Header */
+
+body.dark .site-header{
+
+background:#111827;
+
+}
+
+body.dark .navbar{
+
+background:#111827;
+
+}
+
+body.dark .nav-links a{
+
+color:#f8fafc;
+
+}
+
+/* Footer */
+
+body.dark footer{
+
+background:#020617;
+
+}
+
+/* Inputs */
+
+body.dark input,
+body.dark textarea{
+
+background:#1e293b;
+
+color:#fff;
+
+border:1px solid #334155;
+
+}
+
+/* Buttons */
+
+.theme-toggle{
+
+width:42px;
+
+height:42px;
+
+border:none;
+
+border-radius:50%;
+
+cursor:pointer;
+
+background:#f3f4f6;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+.theme-toggle:hover{
+
+transform:rotate(15deg);
+
+}
+
+body.dark .theme-toggle{
+
+background:#334155;
+
+color:#fff;
+
+}

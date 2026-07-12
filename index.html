@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tajziya Gah | Truth Beyond Headlines</title>
+
+    <meta name="description"
+        content="Tajziya Gah is an independent digital news platform covering Pakistan, World, Politics, Business, Technology and Sports.">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/mobile.css">
+        <link rel="stylesheet" href="css/breaking-news.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+        <!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<!-- Apple -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<!-- Android -->
+<link rel="manifest" href="/site.webmanifest">
+
+<meta name="theme-color" content="#8b0000">
+</head>
+
+<body>
+
+    <!-- ===========================
+         TOP BAR
+    ============================ -->
+
+    <div class="topbar">
+
+        <div class="container">
+
+            <div class="topbar-left">
+
+                <span id="currentDate">
+                    Thursday, July 09 2026
+                </span>
+
+                <span class="divider"></span>
+
+                <span id="currentTime">
+                    10:45 PM
+                </span>
+
+                <span class="divider"></span>
+
+                <span>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    Islamabad
+
+                </span>
+
+            </div>
+
+            <div class="topbar-right">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="https://www.youtube.com/@TajziyaGah"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===========================
+            HEADER
+    ============================ -->
+
+    <header class="header">
+
+        <div class="container">
+
+            <div class="logo">
+
+                <img src="assets/logos/logo.jpeg" alt="Tajziya Gah Logo">
+
+                <div class="logo-text">
+
+                    <h1>Tajziya Gah</h1>
+
+                    <p>Truth Beyond Headlines</p>
+
+                </div>
+
+            </div>
+
+            <div class="header-actions">
+<div class="language-switch">
+
+<button class="language-btn" id="language-btn">
+
+🌐 English
+
+</button>
+
+<div class="language-dropdown">
+
+<button data-lang="en">
+
+English
+
+</button>
+
+<button data-lang="ur">
+
+اردو
+
+</button>
+
+</div>
+
+</div>
+                <button class="search-btn">
+
+                    <a href="pages/search.html">
+<i class="fa-solid fa-magnifying-glass"></i>
+</a>
+
+                </button>
+
+                <div class="weather">
+
+                    ☀️
+
+                    <span>31°C</span>
+
+                </div>
+
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+    <i class="fa-solid fa-moon"></i>
+</button>
+
+                <button class="login-btn">
+
+                    Login
+
+                </button>
+
+                <button class="mobile-menu">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ===========================
+        NAVIGATION
+    ============================ -->
+
+   <nav class="navbar">
+
+<ul class="nav-links">
+
+<li><a href="index.html" data-i18n="home"></a></li>
+
+<li><a href="pages/category.html?category=pakistan" data-i18n="pakistan"></a></li>
+
+<li><a href="pages/category.html?category=world" data-i18n="world"></a></li>
+
+<li><a href="pages/category.html?category=politics" data-i18n="politics"></a></li>
+
+<li><a href="pages/category.html?category=business" data-i18n="business"></a></li>
+
+<li><a href="pages/category.html?category=technology" data-i18n="technology"></a></li>
+
+<li><a href="pages/category.html?category=sports" data-i18n="sports"></a></li>
+
+<li><a href="pages/videos.html" data-i18n="videos"></a></li>
+
+<li><a href="pages/about.html" data-i18n="about"></a></li>
+
+<li><a href="pages/contact.html" data-i18n="contact"></a></li>
+
+</ul>
+
+</nav>
+
+    <!-- ===========================
+      BREAKING NEWS
+    ============================ -->
+<section class="breaking-news">
+
+    <div class="breaking-label">
+
+        <i class="fas fa-bolt"></i>
+
+        <span data-i18n="breaking_news">
+            Breaking
+        </span>
+
+    </div>
+
+    <div class="ticker-wrapper">
+
+        <div id="breakingTicker" class="ticker-track">
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ===========================
+        SEARCH OVERLAY
+    ============================ -->
+
+    <div class="search-overlay">
+
+        <div class="search-box">
+
+            <button class="close-search">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+            <h2>Search News</h2>
+
+            <input
+                type="text"
+                placeholder="Search latest news...">
+
+            <div class="trending-searches">
+
+                <h3>Trending</h3>
+
+                <span>Pakistan</span>
+
+                <span>Budget</span>
+
+                <span>Technology</span>
+
+                <span>Sports</span>
+
+                <span>Politics</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===========================
+        MOBILE DRAWER
+    ============================ -->
+
+    <aside class="mobile-drawer">
+
+        <button class="close-drawer">
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+        <div class="drawer-logo">
+
+            Tajziya Gah
+
+        </div>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="pages/category.html?category=pakistan" data-i18n="pakistan"></a></li>
+
+            <li><a href="pages/category.html?category=world" data-i18n="world"></a></li>
+
+            <li><a href="pages/category.html?category=politics" data-i18n="politics"></a></li>
+
+            <li><a href="pages/category.html?category=business" data-i18n="business"></a></li>
+
+            <li><a href="pages/category.html?category=technology" data-i18n="technology"></a></li>
+
+            <li><a href="pages/category.html?category=sports" data-i18n="sports"></a></li>
+
+            <li><a href="pages/videos.html" data-i18n="videos"></a></li>
+
+            <li><a href="pages/about.html" data-i18n="about"></a></li>
+
+            <li><a href="pages/contact.html" data-i18n="contact"></a></li>
+
+            
+
+        </ul>
+
+    </aside>
+
+   <!-- ==========================================================
+                    CATEGORY NEWS
+=========================================================== -->
+
+<section class="category-news">
+
+    <div class="container">
+
+        <!-- Pakistan -->
+
+        <div class="category-section">
+
+            <div class="section-header">
+
+                <h2>Pakistan</h2>
+
+                <a href="pages/category.html?category=pakistan" class="view-all">
+
+                    View All
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+            <div class="category-grid">
+
+                <!-- Featured -->
+
+                <article class="category-featured" >
+
+                    <img src="https://picsum.photos/700/450?21"
+                        alt="Pakistan News">
+
+                    <div class="category-content">
+
+                        <span class="category politics">
+
+                            Pakistan
+
+                        </span>
+
+                        <h3>
+
+                            Government launches nationwide infrastructure development initiative.
+
+                        </h3>
+
+                        <p>
+
+                            Major investment projects are expected to improve transportation and economic activity.
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <!-- Small News -->
+
+                <div class="category-list">
+
+                    <article class="mini-news">
+
+                        <img src="https://picsum.photos/150/120?22">
+
+                        <div>
+
+                           <a href="pages/category.html?category=pakistan"> <h4>
+
+                                New education reforms announced.
+
+                            </h4>
+                            </a>
+                            <span>
+
+                                2 Hours Ago
+
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                    <article class="mini-news">
+
+                        <img src="https://picsum.photos/150/120?23">
+
+                        <div>
+<a href="pages/category.html?category=business">
+                            <h4>
+
+                                Economic growth exceeds expectations.
+
+                            </h4>
+</a>
+                            <span>
+
+                                3 Hours Ago
+
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                    <article class="mini-news">
+
+                        <img src="https://picsum.photos/150/120?24">
+
+                        <div>
+<a href="pages/category.html?category=world">
+                            <h4>
+
+                                Healthcare projects receive funding.
+
+                            </h4>
+</a>
+                            <span>
+
+                                Today
+
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                    <article class="mini-news">
+
+                        <img src="https://picsum.photos/150/120?25">
+
+                        <div>
+<a href="pages/category.html?category=politics">
+                            <h4>
+
+                                National tourism campaign launched.
+
+                            </h4>
+</a>
+                            <span>
+
+                                Today
+
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================================
+                    EDITOR'S PICKS
+=========================================================== -->
+
+<section class="editors-picks">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Editor's Picks</h2>
+
+            <a href="#" class="view-all">
+
+                View All
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="editor-grid">
+
+            <!-- Featured Editorial -->
+
+            <article class="editor-featured">
+
+                <img src="https://picsum.photos/900/600?31"
+                    alt="Editor's Pick">
+
+                <div class="editor-overlay">
+
+                    <span class="category politics">
+
+                        Editorial
+
+                    </span>
+
+                    <h2>
+
+                        Pakistan's economy is improving, but structural reforms remain the real challenge.
+
+                    </h2>
+
+                    <p>
+
+                        Long-term prosperity depends on consistent policy implementation rather than short-term economic gains.
+
+                    </p>
+
+                    <div class="editor-author">
+
+                        <img src="https://i.pravatar.cc/80?img=12"
+                            alt="Editor">
+
+                        <div>
+
+                            <strong>
+
+                                Hamza Tanoli
+
+                            </strong>
+
+                            <span>
+
+                                Editor-in-Chief • 8 min read
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Right Side -->
+
+            <div class="editor-sidebar">
+
+                <article class="editor-card">
+
+                    <img src="https://picsum.photos/320/220?32">
+
+                    <div>
+
+                        <span class="category world">
+
+                            Opinion
+
+                        </span>
+
+                        <h3>
+
+                            Why artificial intelligence should be regulated globally.
+
+                        </h3>
+
+                        <p>
+
+                            By Sarah Khan
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="editor-card">
+
+                    <img src="https://picsum.photos/320/220?33">
+
+                    <div>
+
+                        <span class="category business">
+
+                            Analysis
+
+                        </span>
+
+                        <h3>
+
+                            Can Pakistan maintain economic stability over the next decade?
+
+                        </h3>
+
+                        <p>
+
+                            By Ahmed Raza
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="editor-card">
+
+                    <img src="https://picsum.photos/320/220?34">
+
+                    <div>
+
+                        <span class="category tech">
+
+                            Technology
+
+                        </span>
+
+                        <h3>
+
+                            AI-generated misinformation is becoming harder to detect.
+
+                        </h3>
+
+                        <p>
+
+                            By Editorial Team
+
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================================
+                    FEATURED VIDEOS
+=========================================================== -->
+
+<section class="featured-videos">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Featured Videos</h2>
+
+            <a href="https://www.youtube.com/@TajziyaGah"
+               target="_blank"
+               class="view-all">
+
+                Visit YouTube Channel
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="video-grid">
+
+            <!-- Main Video -->
+
+            <article class="main-video">
+
+                <div class="video-wrapper">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/s6wYjKuxel8"
+                        title="Tajziya Gah"
+                        allowfullscreen>
+                    </iframe>
+
+                </div>
+
+                <div class="video-content">
+
+                    <span class="category world">
+
+                        Featured Analysis
+
+                    </span>
+
+                    <h3>
+
+                        Tajziya Gah - Featured Analysis
+
+                    </h3>
+
+                    <p>
+
+                        Watch our latest analysis and stay informed with accurate, unbiased reporting.
+
+                    </p>
+
+                </div>
+
+            </article>
+
+            <!-- Playlist -->
+
+            <div class="video-sidebar">
+
+                <div class="video-item">
+
+                    <iframe
+                        src="https://www.youtube.com/embed/s6wYjKuxel8"
+                        title="Video 1"
+                        allowfullscreen>
+                    </iframe>
+
+                    <h4>
+
+                        Featured Analysis
+
+                    </h4>
+
+                </div>
+
+                <div class="video-item">
+
+                    <div class="coming-soon">
+
+                        Next Video
+
+                    </div>
+
+                    <h4>
+
+                        Upload Coming Soon
+
+                    </h4>
+
+                </div>
+
+                <div class="video-item">
+
+                    <div class="coming-soon">
+
+                        Next Video
+
+                    </div>
+
+                    <h4>
+
+                        Upload Coming Soon
+
+                    </h4>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================================================
+                    OPINION & ANALYSIS
+=========================================================== -->
+
+<section class="opinion-section">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Opinion & Analysis</h2>
+
+            <a href="#" class="view-all">
+
+                View All
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="opinion-grid">
+
+            <!-- Opinion Card -->
+
+            <article class="opinion-card">
+
+                <img src="https://picsum.photos/600/450?41" alt="Opinion">
+
+                <div class="opinion-content">
+
+                    <span class="category politics">
+
+                        Analysis
+
+                    </span>
+
+                    <h3>
+
+                        Is Pakistan's economy moving toward sustainable growth?
+
+                    </h3>
+
+                    <p>
+
+                        An in-depth analysis of current economic indicators and long-term policy implications.
+
+                    </p>
+
+                    <div class="author">
+
+                        <!-- <img src="https://i.pravatar.cc/50?img=21"> -->
+
+                        <div>
+
+                            <strong>Hamza Tanoli</strong>
+
+                            <span>Senior Analyst</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Opinion Card -->
+
+            <article class="opinion-card">
+
+                <img src="https://picsum.photos/600/450?42">
+
+                <div class="opinion-content">
+
+                    <span class="category tech">
+
+                        Technology
+
+                    </span>
+
+                    <h3>
+
+                        Artificial Intelligence and the future of journalism.
+
+                    </h3>
+
+                    <p>
+
+                        Can AI improve reporting without replacing journalists?
+
+                    </p>
+
+                    <div class="author">
+
+                        <!-- <img src="https://i.pravatar.cc/50?img=25"> -->
+
+                        <div>
+
+                            <strong>Sarah Khan</strong>
+
+                            <span>Technology Writer</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- Opinion Card -->
+
+            <article class="opinion-card">
+
+                <img src="https://picsum.photos/600/450?43">
+
+                <div class="opinion-content">
+
+                    <span class="category world">
+
+                        World
+
+                    </span>
+
+                    <h3>
+
+                        How global conflicts affect South Asia.
+
+                    </h3>
+
+                    <p>
+
+                        Understanding regional implications through strategic analysis.
+
+                    </p>
+
+                    <div class="author">
+
+                        <!-- <img src="https://i.pravatar.cc/50?img=30"> -->
+
+                        <div>
+
+                            <strong>Editorial Team</strong>
+
+                            <span>World Affairs</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+    
+<!-- ==========================================================
+                    TRENDING TOPICS
+=========================================================== -->
+
+<section class="trending-topics">
+
+    <div class="container">
+
+        <div class="section-header">
+
+            <h2>Trending Topics</h2>
+
+            <a href="#" class="view-all">
+
+                Explore All
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+        <div class="topics-grid">
+
+            <a href="pages/category.html?category=politics"  class="topic-card">
+
+                <i class="fa-solid fa-landmark"></i>
+
+                <h3>Politics</h3>
+
+                <span>142 Articles</span>
+
+            </a>
+
+            <a href="pages/category.html?category=business" class="topic-card">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>Economy</h3>
+
+                <span>84 Articles</span>
+
+            </a>
+
+            <a href="pages/category.html?category=technology" class="topic-card">
+
+                <i class="fa-solid fa-microchip"></i>
+
+                <h3>Technology</h3>
+
+                <span>95 Articles</span>
+
+            </a>
+
+            <a href="pages/category.html?category=world" class="topic-card">
+
+                <i class="fa-solid fa-globe"></i>
+
+                <h3>World</h3>
+
+                <span>173 Articles</span>
+
+            </a>
+
+            <a href="pages/category.html?category=sports" class="topic-card">
+
+                <i class="fa-solid fa-futbol"></i>
+
+                <h3>Sports</h3>
+
+                <span>61 Articles</span>
+
+            </a>
+
+            <a href="pages/category.html?category=pakistan" class="topic-card">
+
+                <i class="fa-solid fa-film"></i>
+
+                <h3>Entertainment</h3>
+
+                <span>47 Articles</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+    <!-- ===========================
+        HERO SECTION
+    ============================ -->
+
+   <main>
+
+    <!-- =========================
+     HERO SECTION
+========================== -->
+
+<section class="hero">
+
+<div id="hero-container"></div>
+
+</section>    <!-- ==========================================
+                    TOP STORIES
+    =========================================== -->
+
+    <section class="top-stories">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>Top Stories</h2>
+
+                <a href="#" class="view-all">
+
+                    View All
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+            <div class="stories-grid">
+
+                <!-- Story Cards -->
+
+                <!-- Copy your existing 6 story cards here -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================================
+            LATEST NEWS + PROFESSIONAL SIDEBAR
+    =========================================== -->
+
+    <section class="latest-news">
+
+<div id="latest-news-grid"></div>
+
+</section>
+
+</main>
+   
+    <!-- ==========================================================
+                        FOOTER
+=========================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <!-- ==================================
+                    ABOUT
+            =================================== -->
+
+            <div class="footer-column">
+
+                <div class="footer-logo">
+
+                    <img src="assets/logos/logo.jpeg" alt="Tajziya Gah">
+
+                    <h2>Tajziya Gah</h2>
+
+                </div>
+
+                <p>
+
+                    Tajziya Gah is an independent digital news platform
+                    delivering accurate news, in-depth analysis,
+                    fact-based journalism, and unbiased reporting
+                    from Pakistan and around the world.
+
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- ==================================
+                    QUICK LINKS
+            =================================== -->
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <ul>
+
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">Latest News</a></li>
+
+                    <li><a href="pages/videos.html">Videos</a></li>
+
+                    <li><a href="#">Opinion</a></li>
+
+                    <li><a href="#">Editor's Picks</a></li>
+
+                    <li><a href="pages/about.html">About Us</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- ==================================
+                    CATEGORIES
+            =================================== -->
+
+            <div class="footer-column">
+
+                <h3>Categories</h3>
+
+                <ul>
+
+                    <li><a href="pages/category.html?category=pakistan">Pakistan</a></li>
+
+                    <li><a href="pages/category.html?category=world">World</a></li>
+
+                    <li><a href="pages/category.html?category=politics">Politics</a></li>
+
+                    <li><a href="pages/category.html?category=business">Business</a></li>
+
+                    <li><a href="pages/category.html?category=technology">Technology</a></li>
+
+                    <li><a href="pages/category.html?category=sports">Sports</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- ==================================
+                    CONTACT
+            =================================== -->
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <ul class="contact-list">
+
+                    <li>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Islamabad, Pakistan
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        tajziyagah@gmail.com
+
+                    </li>
+
+                    <li>
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        +92 332 5204299
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- ==================================
+                NEWSLETTER
+        =================================== -->
+
+        <div class="footer-newsletter">
+
+            <div>
+
+                <h3>
+
+                    Subscribe to our Newsletter
+
+                </h3>
+
+                <p>
+
+                    Get the latest news and analysis delivered directly to your inbox.
+
+                </p>
+
+            </div>
+
+            <form>
+
+                <input
+
+                    type="email"
+
+                    placeholder="Enter your email">
+
+                <button>
+
+                    Subscribe
+
+                </button>
+
+            </form>
+
+        </div>
+<button id="scrollTopBtn" aria-label="Scroll to Top">
+    ↑
+</button>
+        <!-- ==================================
+                FOOTER BOTTOM
+        =================================== -->
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Tajziya Gah.
+                All Rights Reserved.
+
+            </p>
+
+            <div class="footer-bottom-links">
+
+                <a href="pages/privacy.html">Privacy Policy</a>
+
+                <a href="pages/terms.html">Terms & Conditions</a>
+
+                <a href="pages/editorial-policy.html">Editorial Policy</a>
+
+                <a href="pages/fact-checking.html">Fact Checking</a>
+
+                <a href="pages/cookies.html">Cookies</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+ <!-- ===========================
+        JAVASCRIPT
+    ============================ -->
+
+<script src="js/navigation.js"></script>
+<script src="js/theme.js"></script>
+<script src="js/language.js"></script>
+<script src="js/app.js"></script>
+<script src="js/home.js"></script>
+<script src="js/breaking-news.js"></script> 
+
+</body>
+
+</html>

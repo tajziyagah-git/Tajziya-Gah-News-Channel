@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article201",
+
+        "title":{
+            "en":"Parliament Approves New Electoral Reforms",
+            "ur":"پارلیمنٹ نے انتخابی اصلاحات منظور کر لیں"
+        },
+
+        "summary":{
+            "en":"Lawmakers passed a package of reforms aimed at improving election transparency.",
+            "ur":"ارکان پارلیمنٹ نے انتخابی شفافیت بہتر بنانے کے لیے اصلاحات منظور کیں۔"
+        },
+
+        "image":"../assets/images/articles/politics1.jpg",
+
+        "date":"10 July 2026",
+
+        "author":"Political Desk"
+    },
+
+    {
+        "id":"article202",
+
+        "title":{
+            "en":"Opposition Holds Nationwide Convention",
+            "ur":"اپوزیشن کا ملک گیر کنونشن"
+        },
+
+        "summary":{
+            "en":"Opposition parties gathered to discuss future political strategies.",
+            "ur":"اپوزیشن جماعتوں نے آئندہ سیاسی حکمت عملی پر غور کیا۔"
+        },
+
+        "image":"../assets/images/articles/politics2.webp",
+
+        "date":"10 July 2026",
+
+        "author":"Political Desk"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article301",
+
+        "title":{
+            "en":"Stock Market Reaches Record High",
+            "ur":"اسٹاک مارکیٹ نئی بلند ترین سطح پر پہنچ گئی"
+        },
+
+        "summary":{
+            "en":"Investors welcomed strong corporate earnings and economic stability.",
+            "ur":"سرمایہ کاروں نے بہتر معاشی صورتحال کا خیر مقدم کیا۔"
+        },
+
+        "image":"../assets/images/articles/business1.jpg",
+
+        "date":"10 July 2026",
+
+        "author":"Business Desk"
+    },
+
+    {
+        "id":"article302",
+
+        "title":{
+            "en":"Small Businesses Receive Tax Relief",
+            "ur":"چھوٹے کاروباروں کے لیے ٹیکس میں رعایت"
+        },
+
+        "summary":{
+            "en":"Government announces incentives to support small and medium enterprises.",
+            "ur":"حکومت نے چھوٹے اور درمیانے درجے کے کاروباروں کے لیے مراعات کا اعلان کیا۔"
+        },
+
+        "image":"../assets/images/articles/business2.webp",
+
+        "date":"10 July 2026",
+
+        "author":"Business Desk"
+    }
+]

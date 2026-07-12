@@ -1,0 +1,662 @@
+/* ==========================================================
+   TAJZIYA GAH
+   RESPONSIVE.CSS
+   PART 1 - GLOBAL LAYOUT
+==========================================================*/
+
+
+/*==================================================
+    LARGE DESKTOP
+==================================================*/
+
+@media (max-width:1400px){
+
+.container{
+
+    width:95%;
+
+    max-width:1320px;
+
+}
+
+.hero-content{
+
+    max-width:700px;
+
+}
+
+}
+
+
+/*==================================================
+    LAPTOP
+==================================================*/
+
+@media (max-width:1200px){
+
+.container{
+
+    width:95%;
+
+}
+
+.section-title{
+
+    font-size:32px;
+
+}
+
+.hero{
+
+    min-height:520px;
+
+}
+
+.hero-content h1{
+
+    font-size:48px;
+
+}
+
+.news-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:22px;
+
+}
+
+.footer-grid{
+
+    grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+
+/*==================================================
+    TABLET LANDSCAPE
+==================================================*/
+
+@media (max-width:992px){
+
+.container{
+
+    width:94%;
+
+}
+
+
+/*-----------------------------
+Header
+------------------------------*/
+
+.header{
+
+    padding:15px 0;
+
+}
+
+.logo img{
+
+    max-height:55px;
+
+}
+
+
+/*-----------------------------
+Navigation
+------------------------------*/
+
+.nav-menu{
+
+    position:fixed;
+
+    top:0;
+
+    right:-100%;
+
+    width:300px;
+
+    height:100vh;
+
+    background:var(--color-surface);
+
+    display:flex;
+
+    flex-direction:column;
+
+    padding:90px 30px;
+
+    transition:.35s ease;
+
+    z-index:9999;
+
+    box-shadow:-10px 0 30px rgba(0,0,0,.15);
+
+}
+
+.nav-menu.active{
+
+    right:0;
+
+}
+
+.nav-menu li{
+
+    margin:15px 0;
+
+}
+
+.nav-menu a{
+
+    font-size:18px;
+
+}
+
+.mobile-toggle{
+
+    display:flex;
+
+}
+
+
+/*-----------------------------
+Hero
+------------------------------*/
+
+.hero{
+
+    min-height:500px;
+
+}
+
+.hero-content{
+
+    max-width:100%;
+
+}
+
+.hero-content h1{
+
+    font-size:42px;
+
+}
+
+.hero-content p{
+
+    font-size:17px;
+
+}
+
+
+
+
+
+/*-----------------------------
+News Cards
+------------------------------*/
+
+.news-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:20px;
+
+}
+
+.news-card img{
+
+    height:220px;
+
+}
+
+
+/*-----------------------------
+Footer
+------------------------------*/
+
+.footer-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:35px;
+
+}
+
+}
+
+
+/*==================================================
+    TABLET PORTRAIT
+==================================================*/
+
+@media (max-width:768px){
+
+.container{
+
+    width:92%;
+
+}
+
+
+/*-----------------------------
+Header
+------------------------------*/
+
+.logo img{
+
+    height:48px;
+
+}
+
+.header-actions{
+
+    gap:10px;
+
+}
+
+
+/*-----------------------------
+Hero
+------------------------------*/
+
+.hero{
+
+    min-height:420px;
+
+}
+
+.hero-content{
+
+    text-align:center;
+
+}
+
+.hero-content h1{
+
+    font-size:34px;
+
+    line-height:1.3;
+
+}
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+
+/*-----------------------------
+Section Titles
+------------------------------*/
+
+.section-title{
+
+    font-size:28px;
+
+}
+
+
+/*-----------------------------
+News
+------------------------------*/
+
+.news-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.news-card{
+
+    max-width:100%;
+
+}
+
+
+/*-----------------------------
+Newsletter
+------------------------------*/
+
+.newsletter{
+
+    padding:50px 25px;
+
+}
+
+.newsletter form{
+
+    flex-direction:column;
+
+}
+
+.newsletter input{
+
+    width:100%;
+
+}
+
+
+/*-----------------------------
+Footer
+------------------------------*/
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.footer-bottom{
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+}
+
+
+/*==================================================
+    LARGE PHONES
+==================================================*/
+
+@media (max-width:576px){
+
+.container{
+
+    width:94%;
+
+}
+
+
+/*-----------------------------
+Hero
+------------------------------*/
+
+.hero{
+
+    min-height:360px;
+
+}
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+.hero-content p{
+
+    font-size:15px;
+
+}
+
+
+/*-----------------------------
+Buttons
+------------------------------*/
+
+.btn{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+
+/*-----------------------------
+News Cards
+------------------------------*/
+
+.news-card img{
+
+    height:200px;
+
+}
+
+.news-card-content{
+
+    padding:18px;
+
+}
+
+.news-card h3{
+
+    font-size:20px;
+
+}
+
+
+/*-----------------------------
+Ticker
+------------------------------*/
+
+.breaking-news{
+
+    padding:10px;
+
+}
+
+.breaking-label{
+
+    font-size:13px;
+
+}
+
+}
+
+
+/*==================================================
+    MOBILE
+==================================================*/
+
+@media (max-width:480px){
+
+.logo img{
+
+    height:42px;
+
+}
+
+.hero{
+
+    min-height:330px;
+
+}
+
+.hero-content h1{
+
+    font-size:26px;
+
+}
+
+.hero-content p{
+
+    font-size:14px;
+
+}
+
+.section-title{
+
+    font-size:24px;
+
+}
+
+.news-card img{
+
+    height:180px;
+
+}
+
+.news-card-content{
+
+    padding:15px;
+
+}
+
+.footer{
+
+    padding-top:50px;
+
+}
+
+.footer h3{
+
+    font-size:20px;
+
+}
+
+}
+
+
+/*==================================================
+    SMALL MOBILE
+==================================================*/
+
+@media (max-width:360px){
+
+.container{
+
+    width:95%;
+
+}
+
+.hero-content h1{
+
+    font-size:22px;
+
+}
+
+.hero-content p{
+
+    font-size:13px;
+
+}
+
+.section-title{
+
+    font-size:22px;
+
+}
+
+.news-card img{
+
+    height:160px;
+
+}
+
+.news-card h3{
+
+    font-size:18px;
+
+}
+
+.footer{
+
+    font-size:14px;
+
+}
+
+}
+
+
+/*==================================================
+    GLOBAL RESPONSIVE IMAGES
+==================================================*/
+
+img{
+
+    max-width:100%;
+
+    height:auto;
+
+    display:block;
+
+}
+
+video{
+
+    max-width:100%;
+
+}
+
+iframe{
+
+    max-width:100%;
+
+}
+
+table{
+
+    width:100%;
+
+}
+
+table{
+
+    display:block;
+
+    overflow-x:auto;
+
+}
+@media(max-width:768px){
+
+.breaking-news{
+
+    height:45px;
+
+}
+
+.breaking-label{
+
+    padding:0 12px;
+
+}
+
+.ticker-track{
+
+    animation-duration:20s;
+
+}
+
+.ticker-track a{
+
+    margin-right:40px;
+
+    font-size:14px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.breaking-label span{
+
+    display:none;
+
+}
+
+.ticker-track{
+
+    animation-duration:16s;
+
+}
+
+}

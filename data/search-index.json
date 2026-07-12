@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article001",
+        "category":"Pakistan",
+        "author":"Editorial Desk",
+
+        "title":{
+            "en":"Pakistan Announces Economic Reforms",
+            "ur":"پاکستان نے معاشی اصلاحات کا اعلان کر دیا"
+        },
+
+        "summary":{
+            "en":"Government introduces reforms to stabilize the economy.",
+            "ur":"حکومت نے معیشت کو مستحکم کرنے کے لیے اصلاحات متعارف کرائیں۔"
+        },
+
+        "image":"../assets/images/articles/article001.jpg",
+
+        "date":"10 July 2026"
+    },
+
+    {
+        "id":"article401",
+        "category":"Technology",
+        "author":"Technology Desk",
+
+        "title":{
+            "en":"New AI Model Sets Performance Record",
+            "ur":"نئے اے آئی ماڈل نے کارکردگی کا نیا ریکارڈ قائم کر دیا"
+        },
+
+        "summary":{
+            "en":"Researchers unveiled a powerful AI model.",
+            "ur":"محققین نے جدید مصنوعی ذہانت کا ماڈل متعارف کرایا۔"
+        },
+
+        "image":"../assets/images/articles/tech1.jpg",
+
+        "date":"10 July 2026"
+    }
+]

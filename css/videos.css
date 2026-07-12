@@ -1,0 +1,165 @@
+.featured-video-card{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:40px;
+
+margin:40px 0;
+
+align-items:center;
+
+}
+
+.featured-video-card img{
+
+width:100%;
+
+border-radius:12px;
+
+}
+
+.video-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:30px;
+
+margin-top:50px;
+
+}
+
+.video-card{
+
+background:var(--surface);
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:var(--shadow);
+
+transition:.3s;
+
+}
+
+.video-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+.video-card img{
+
+width:100%;
+
+height:380px;
+
+object-fit:cover;
+
+}
+
+.video-content{
+
+padding:30px;
+
+}
+
+.video-content h3{
+
+margin:12px 0;
+
+}
+
+.video-content small{
+
+color:var(--text-secondary);
+
+}
+/*=====================================
+    YouTube Button
+======================================*/
+
+.youtube-btn{
+
+display:inline-flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:10px;
+
+padding:12px 22px;
+
+margin-top:18px;
+
+border:2px solid #ff0000;
+
+border-radius:8px;
+
+background:transparent;
+
+color:#ff0000;
+
+font-size:15px;
+
+font-weight:600;
+
+text-decoration:none;
+
+transition:all .3s ease;
+
+cursor:pointer;
+
+}
+
+.youtube-btn i{
+
+font-size:20px;
+
+}
+
+.youtube-btn:hover{
+
+background:#ff0000;
+
+color:#ffffff;
+
+transform:translateY(-2px);
+
+box-shadow:0 8px 20px rgba(255,0,0,.25);
+
+}
+
+.youtube-btn:active{
+
+transform:scale(.97);
+
+}
+
+.featured-btn{
+
+padding:14px 28px;
+
+font-size:16px;
+
+}
+body.dark-mode .youtube-btn{
+
+border-color:#ff3b3b;
+
+color:#ff3b3b;
+
+}
+
+body.dark-mode .youtube-btn:hover{
+
+background:#ff3b3b;
+
+color:#ffffff;
+
+}

@@ -1,0 +1,41 @@
+[
+    {
+        "id":"article101",
+
+        "title":{
+            "en":"Global Leaders Meet to Discuss Climate Change",
+            "ur":"عالمی رہنما موسمیاتی تبدیلی پر بات چیت کے لیے جمع"
+        },
+
+        "summary":{
+            "en":"World leaders agreed to strengthen international cooperation on climate policies.",
+            "ur":"عالمی رہنماؤں نے موسمیاتی پالیسیوں پر بین الاقوامی تعاون بڑھانے پر اتفاق کیا۔"
+        },
+
+        "image":"../assets/images/articles/world1.jpg",
+
+        "date":"10 July 2026",
+
+        "author":"World Desk"
+    },
+
+    {
+        "id":"article102",
+
+        "title":{
+            "en":"Major Earthquake Hits Pacific Region",
+            "ur":"بحرالکاہل کے علاقے میں شدید زلزلہ"
+        },
+
+        "summary":{
+            "en":"Emergency teams have been deployed after a powerful earthquake struck the Pacific.",
+            "ur":"شدید زلزلے کے بعد امدادی ٹیمیں متاثرہ علاقوں میں پہنچ گئیں۔"
+        },
+
+        "image":"../assets/images/articles/world2.png",
+
+        "date":"10 July 2026",
+
+        "author":"International News"
+    }
+]
